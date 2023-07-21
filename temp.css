@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Signika+Negative:wght@500&family=Ubuntu:wght@500&display=swap');
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(62, 62, 233),rgb(246, 55, 55));
+    font-family: 'Belanosima', sans-serif;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin: 35px 0;
+}
+#container{
+    background: none;
+    height: 40%;
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 300px;
+    border: 7px solid yellow;
+    border-radius: 10px;
+}
+.inp{
+    margin-bottom: 10px;
+}
+.inp label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.inp input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+}
+.btn{
+    padding: 10px 5px;
+    margin: 25px 7px;
+    font-size: 15px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    background-color: rgb(143, 200, 219);
+}
+.btn:hover{
+    background-color: rgb(95, 134, 147);
+    color: white;
+}
+.result{
+    background-color: yellow;
+    height: 40.4%;
+    width: 30%;
+    position: absolute;
+    top: 33.3%;
+    right: 20%;
+    border: 7px solid yellow;
+    border-radius: 10px;
+}
+#resultText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: 130px auto;
+}
